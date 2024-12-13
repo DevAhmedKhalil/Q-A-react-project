@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+.color-body {
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+.font {
+  font-family: "Almarai", serif;
+  font-size: 15px;
+}
+
+.btn-color {
+  border: none !important;
+  border-radius: 8px;
+  color: white;
+  background-color: #224f61;
+  padding: 8px;
+}
+
+.btn-color:hover {
+  color: rgb(148, 148, 162);
+}
+
+.custom-accordion-header {
+  display: flex;
+  flex-direction: row-reverse; /* For RTL: text on the right, arrow on the left */
+  align-items: center;
+  width: 100%;
+}
+
+.custom-accordion-header div {
+  flex-grow: 1; /* Ensures the text occupies the space on the right */
+  text-align: right; /* Align text to the right */
+}
